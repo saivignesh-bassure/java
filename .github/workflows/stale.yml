@@ -18,7 +18,7 @@ jobs:
       pull-requests: write
 
     steps:
-    - uses: actions/stale@9c1b1c6e115ca2af09755448e0dbba24e5061cc8
+    - uses: actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         # Mark issues as stale once per quarter, but never close.
